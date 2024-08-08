@@ -1,0 +1,114 @@
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*faremwork*/
+ .container{
+    margin: auto;
+    padding: 0 15px;
+
+ }
+
+/*faremwork*/
+
+.heeder{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(227, 215, 215, 0.79),rgba(232, 187, 187, 0.818) ),url(../img/خلفية2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar .ul{
+    float: right;
+}
+.navbar ul li{
+    float: right;
+    list-style:none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(18, 18, 18);
+    padding:20px;
+    margin: 10px;
+
+}
+
+.sect{
+    text-align: center;
+}
+.sect .azK a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(18, 18, 18);
+    padding: 15px;
+    margin: 5px;
+   
+}
+
+ .sect .azK{
+    border: 2px solid white;
+    float: right;
+    width:max-content;
+    padding: 30px;
+    margin: 1%;
+    background-color: gray;
+
+ }
+ .menu{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+ }
+ 
+ 
+ 
+ @media  screen  and (min-width: 576px) and (max-width:800px) { 
+    .sect .azK{
+        background-color: rgba(219, 233, 25, 0.488);
+        float:none ;
+        margin: 0 auto 25px; }
+        .visible-sm{
+            display: block; }
+            .hidden-sm{
+                display: none; }     
+     
+ }
+
+ @media (min-width: 801px) and ( max-width: 1400px) {
+    .navbar ul li a { color: rgb(17, 17, 240);} 
+    .navbar .logo {
+        width: 200px ; }
+        .sect .azK a{ color:rgb(17, 17, 240) ;}
+        .visible-lg{
+            display: none; }
+            .hidden-lg{
+                display: block;}
+    }
+    /*
+ @media (min-width:992px) {
+    .container {
+        width: 960px ;
+    } }
+@media (min-width:576px) {
+    .container{
+        width: 540px;
+    }}
+    @media (min-width:768px) {
+        .container {
+            width: 720px ;
+        } }
+        @media (min-width:1200px) {
+            .container {
+                width: 1140px ;
+            } }
+            @media (min-width:1400px) {
+                .container {
+                    width: 1320px ;
+                } }
+
